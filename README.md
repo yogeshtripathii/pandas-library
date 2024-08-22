@@ -75,9 +75,7 @@ print(df)
 ### ** Handling Missing Data (Null Values)**
 
 -   **Identify Missing Data:**
-
-    python
-
+  
     `print(df.isnull())
     print(df.isnull().sum())`
 
@@ -85,15 +83,11 @@ print(df)
 
     -   Fill missing values with a default value:
 
-        python
-
         `df['Discount'].fillna(0, inplace=True)`
 
 -   **Dropping Rows with Missing Data:**
 
     -   Drop rows where any column has missing data:
-
-        python
 
         `df.dropna(inplace=True)`
 
@@ -105,14 +99,10 @@ print(df)
 
     -   Sort by `Price` in ascending order:
 
-        python
-
         `sorted_df = df.sort_values(by='Price')
         print(sorted_df)`
 
     -   Sort by `ProductName` in descending order:
-
-        python
 
         `sorted_df = df.sort_values(by='ProductName', ascending=False)
         print(sorted_df)`
@@ -121,14 +111,10 @@ print(df)
 
     -   Filter products with price greater than $100:
 
-        python
-
         `filtered_df = df[df['Price'] > 100]
         print(filtered_df)`
 
     -   Filter products in the 'Accessories' category:
-
-        python
 
         `filtered_df = df[df['Category'] == 'Accessories']
         print(filtered_df)`

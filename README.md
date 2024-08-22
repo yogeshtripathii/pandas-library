@@ -43,6 +43,11 @@ Students will understand the basics of the Pandas library, including DataFrame c
 import pandas as pd
 
 # Creating the DataFrame
+
+```python
+import pandas as pd
+
+# Data for products
 data = {
     'ProductID': [101, 102, 103, 104, 105, 106, 107, 108, 109, 110, 
                   111, 112, 113, 114, 115, 116, 117, 118, 119, 120],
@@ -61,5 +66,8 @@ data = {
                  0.20, 0.05, 0.15, None, 0.05, None, 0.20, 0.10, None, 0.05]
 }
 
+# Creating the DataFrame
 df = pd.DataFrame(data)
+
+# Display the DataFrame
 print(df)

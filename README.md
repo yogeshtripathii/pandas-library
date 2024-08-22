@@ -71,3 +71,70 @@ df = pd.DataFrame(data)
 
 # Display the DataFrame
 print(df)
+
+### ** Handling Missing Data (Null Values)**
+
+-   **Identify Missing Data:**
+
+    python
+
+    `print(df.isnull())
+    print(df.isnull().sum())`
+
+-   **Filling Missing Data:**
+
+    -   Fill missing values with a default value:
+
+        python
+
+        `df['Discount'].fillna(0, inplace=True)`
+
+-   **Dropping Rows with Missing Data:**
+
+    -   Drop rows where any column has missing data:
+
+        python
+
+        `df.dropna(inplace=True)`
+
+* * * * *
+
+### **5\. Sorting and Filtering Data (30 minutes)**
+
+-   **Sorting by a Column:**
+
+    -   Sort by `Price` in ascending order:
+
+        python
+
+        Copy code
+
+        `sorted_df = df.sort_values(by='Price')
+        print(sorted_df)`
+
+    -   Sort by `ProductName` in descending order:
+
+        python
+
+        Copy code
+
+        `sorted_df = df.sort_values(by='ProductName', ascending=False)
+        print(sorted_df)`
+
+-   **Filtering Data:**
+
+    -   Filter products with price greater than $100:
+
+        python
+
+        Copy code
+
+        `filtered_df = df[df['Price'] > 100]
+        print(filtered_df)`
+
+    -   Filter products in the 'Accessories' category:
+
+        python
+
+        `filtered_df = df[df['Category'] == 'Accessories']
+        print(filtered_df)`

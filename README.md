@@ -71,7 +71,7 @@ df = pd.DataFrame(data)
 
 # Display the DataFrame
 print(df)
-
+```
 ### ** Handling Missing Data (Null Values)**
 
 -   **Identify Missing Data:**
@@ -107,16 +107,12 @@ print(df)
 
         python
 
-        Copy code
-
         `sorted_df = df.sort_values(by='Price')
         print(sorted_df)`
 
     -   Sort by `ProductName` in descending order:
 
         python
-
-        Copy code
 
         `sorted_df = df.sort_values(by='ProductName', ascending=False)
         print(sorted_df)`
@@ -126,8 +122,6 @@ print(df)
     -   Filter products with price greater than $100:
 
         python
-
-        Copy code
 
         `filtered_df = df[df['Price'] > 100]
         print(filtered_df)`

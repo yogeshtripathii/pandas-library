@@ -118,3 +118,17 @@ print(df)
 
         `filtered_df = df[df['Category'] == 'Accessories']
         print(filtered_df)`
+
+### **Grouping Data**
+
+-   **Group by Category:**
+
+
+    `grouped_df = df.groupby('Category').sum()
+    print(grouped_df)`
+
+-   **Group by Multiple Columns:**
+
+    `grouped_df = df.groupby(['Category', 'Stock']).mean()
+    print(grouped_df)`
+

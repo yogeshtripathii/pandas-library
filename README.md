@@ -14,7 +14,7 @@ Students will understand the basics of the Pandas library, including DataFrame c
 5.  Sorting and filtering data
 6.  Grouping data
 
-### **Introduction to Pandas (10 minutes)**
+### **Introduction to Pandas**
 
 -   **What is Pandas?**
 

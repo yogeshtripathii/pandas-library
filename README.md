@@ -14,6 +14,8 @@ Students will understand the basics of the Pandas library, including DataFrame c
 5.  Sorting and filtering data
 6.  Grouping data
 
+* * * * *
+
 ### **Introduction to Pandas**
 
 -   **What is Pandas?**
@@ -25,6 +27,8 @@ Students will understand the basics of the Pandas library, including DataFrame c
     -   Ease of use for data analysis.
     -   Handles missing data gracefully.
     -   Supports a variety of operations for data cleaning and transformation.
+
+* * * * *
 
 ### **Understanding DataFrame**
 
@@ -38,11 +42,9 @@ Students will understand the basics of the Pandas library, including DataFrame c
     -   Rows: Individual product entries.
     -   Columns: Product attributes (e.g., ID, Name, Price, Quantity, Category).
 
+ * * * * *
+
 ### **Creating a DataFrame for Products**
-
-import pandas as pd
-
-# Creating the DataFrame
 
 ```python
 import pandas as pd
@@ -72,6 +74,8 @@ df = pd.DataFrame(data)
 # Display the DataFrame
 print(df)
 ```
+* * * * *
+
 ### ** Handling Missing Data (Null Values)**
 
 -   **Identify Missing Data:**
@@ -93,7 +97,7 @@ print(df)
 
 * * * * *
 
-### **5\. Sorting and Filtering Data (30 minutes)**
+### **Sorting and Filtering Data (30 minutes)**
 
 -   **Sorting by a Column:**
 
@@ -118,6 +122,8 @@ print(df)
 
         `filtered_df = df[df['Category'] == 'Accessories']
         print(filtered_df)`
+
+* * * * *
 
 ### **Grouping Data**
 

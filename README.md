@@ -97,7 +97,7 @@ print(df)
 
 * * * * *
 
-### **Sorting and Filtering Data (30 minutes)**
+### **Sorting and Filtering Data**
 
 -   **Sorting by a Column:**
 

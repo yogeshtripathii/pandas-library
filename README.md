@@ -13,3 +13,15 @@ Students will understand the basics of the Pandas library, including DataFrame c
 4.  Handling missing data (null values)
 5.  Sorting and filtering data
 6.  Grouping data
+
+### **Introduction to Pandas (10 minutes)**
+
+-   **What is Pandas?**
+
+    -   A powerful data manipulation library for Python.
+    -   Provides data structures like Series and DataFrame to work with structured data.
+-   **Why use Pandas?**
+
+    -   Ease of use for data analysis.
+    -   Handles missing data gracefully.
+    -   Supports a variety of operations for data cleaning and transformation.
